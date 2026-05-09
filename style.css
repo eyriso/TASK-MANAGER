@@ -114,3 +114,42 @@ color: #8d6b79;
 font-size: 12px;
 
 }
+
+input,
+textarea {
+
+    border: 1px solid #f7b6d2;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background: #fffafd;
+
+}
+
+input:focus,
+textarea:focus {
+
+    border-color: #ec7db3;
+    box-shadow: 0 0 5px rgba(236, 125, 179, 0.3);
+
+}
+
+button {
+
+    background: #f8a8cb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+button:hover {
+
+    background: #ec7db3;
+    transform: scale(1.02);
+
+}
